@@ -28,7 +28,7 @@ const Sidebar = () => {
   }, [session, spotifyApi]);
   console.log(playlistId);
   return (
-    <div className="overflow-y-scroll scrollbar-hide h-screen text-gray-500 p-5 text-sx border-r border-gray-900 lg:text-sm sm:max-w-[12rem] lg:max-w-[15rem] hidden md:inline-block">
+    <div className="overflow-y-scroll scrollbar-hide h-screen text-gray-500 p-5 text-sx border-r border-gray-900 lg:text-sm sm:max-w-[12rem] lg:max-w-[15rem] hidden md:inline-block pb-36">
       <div className="space-y-4">
         <button
           className="flex items-center space-x-2 hover:text-white"
